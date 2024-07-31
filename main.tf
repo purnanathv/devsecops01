@@ -117,7 +117,7 @@ EOF
 }
 
 resource "aws_instance" "web" {
-  ami             = "ami-04c913012f8977029"
+  ami             = "ami-0427090fd1714168b"
   instance_type   = "t2.medium" 
   key_name        = var.key_name
   iam_instance_profile = "${aws_iam_instance_profile.test_profile.name}"
